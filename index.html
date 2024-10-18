@@ -1,8 +1,3 @@
-<!--comenzamos creando la estrucura basica
-de un documento html escribiendo <html y 
-teclenado enter para autocompletar, lo que creara
-la estructura que se llenara como se menciona a continuación...-->
-
 <!--indica el tipo de docuemnto-->
 <!DOCTYPE html> 
 <!--dentro de l etiqueta html esta todo el contenido del documento html-->
@@ -10,8 +5,11 @@ la estructura que se llenara como se menciona a continuación...-->
 <!------------encabezado de pagina----------->
 <!--dentro de la etiqueta head esta el encabezado del documento html-->
 <head> 
-	<title>felxbox_01</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
+	<title>Las consecuencias negativas de la desaparición del dinero en efectivo</title> <!--dentro de la etiqueta tittle esta el titulo de la página-->
 	<link rel='stylesheet' href='estilos.css'/> <!--dentro de esta etiqueta esta la referencia a la hoja de estilos-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!--viewport para trabajar responsive design-->
 </head>
 
@@ -30,11 +28,10 @@ la estructura que se llenara como se menciona a continuación...-->
 
       <div class='ligas-secciones'>
       	<!----modificar nombre de la seccion acorde a la necesidad----->
-          <a href="#secc1">Sección 1</a>
-          <a href="#secc2">Sección 2</a>
-          <a href="#secc3">Sección 3</a>
-          <a href="#secc4">Sección 4</a>
-        </div>
+          <a href="#secc1">¿Adios al efectivo?</a>
+          <a href="#secc2">El precio del progreso</a>
+          <a href="#secc3">El efectivo como alternativa</a>
+	</div>
 
     </header>
 
@@ -48,40 +45,19 @@ la estructura que se llenara como se menciona a continuación...-->
     		<!--contenedor para el texto de cada sección-->
     		<div class="texto-secc">
     			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
-		        <h1>Sección 1</h1>
+		        <h1>¿Adios al efectivo?</h1>
 		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		        <br><!--etiqueta para un brinco de renglón-->
-		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		        <p>El uso de las tarjetas de crédito se ha vuelto cada vez más común, transformando nuestros hábitos de compra. Esto se debe a varios factores.
+				Por ejemplo, ofrecen flexibilidad al permitirnos fraccionar los pagos y retrasar el cargo de las compras, adaptándose a nuestras necesidades. Además, simplifican las transacciones diarias al evitar la necesidad de llevar efectivo.
+				Aunque las tarjetas de crédito pueden ser útiles si se usan con responsabilidad, si abusas de ellas puedes acumular deudas rápidamente, recuerda que las compras impulsivas son un enemigo de tus finanzas.</p>
 		        <br><!--etiqueta para un brinco de renglón-->
     		</div>
     		<!--contenedor para las imagenes de la sección 1, OJO: este tiene un layout para dos imagenes-->
-    		<div class="imgs-secc-1">
-    			<!--contenedor con las dos imagenes en su version de escritorio-->
-    			<div class="par-imgs-escritorio">
-    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
-	        		<img src="imagenes/img1a.png" title="Img 1a">
-	        		<img src="imagenes/img1b.png" title="Img 1b">
-    			</div>
-    			<!--contenedor los dos textos de las dos imagenes en su version de escritorio-->
-    			<div class="par-imgs-escritorio">
-    				<!--texto para imagen a la izquierda-->
-	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	        		<!--texto para imagen a la derecha-->
-	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-        		</div>
-        		<!--contenedor con las dos imagenes en su version mobile-->
-        		<div class="par-imgs-mobile">
-    				<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
-	        		<img src="imagenes/img1a.png" title="Img 1a">
-	        		<!--texto para la imagen-->
-	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-	        		<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
-	        		<img src="imagenes/img1b.png" title="Img 1b">
-	        		<!--texto para la imagen-->
-	        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    			</div>
+			<div class="contenedor-imagen">
+    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
+        		<img  src="imagenes/img1.png" title="Img 1">
+        		<!--texto para la imagen-->
+        		<p class="pie-imagen">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     		</div>
 
     	</div>
@@ -91,12 +67,9 @@ la estructura que se llenara como se menciona a continuación...-->
     		<!--contenedor para el texto de cada sección-->
     		<div class="texto-secc">
     			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
-		        <h1>Sección 2</h1>
+		        <h1>El precio del progreso.</h1>
 		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		        <br><!--etiqueta para un brinco de renglón-->
-		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		        <p>No todo es perfecto, el uso del dinero electrónico y el aumento de las transacciones en línea, exige una mayor atención por parte de los reguladores y supervisores. Existe la necesidad de fortalecer la supervisión y los mecanismos de protección al usuario, adaptándolos a la nueva era y escalar cada sistema de dinero electrónico. Debemos comprender que el dinero digital representa una evolución inevitable en las finanzas, pero su implementación requiere una planificación cuidadosa para mitigar los riesgos y maximizar sus beneficios. Es fundamental abordar la desconfianza, promover la educación financiera, establecer mecanismos de control que protejan la privacidad y aprovechar el potencial de la tecnología.</p>
 		        <br><!--etiqueta para un brinco de renglón-->
     		</div>
     		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
@@ -104,7 +77,7 @@ la estructura que se llenara como se menciona a continuación...-->
     			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
         		<img  src="imagenes/img2.png" title="Img 2">
         		<!--texto para la imagen-->
-        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        		<p class="pie-imagen">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     		</div>
 
     	</div>
@@ -114,12 +87,10 @@ la estructura que se llenara como se menciona a continuación...-->
     		<!--contenedor para el texto de cada sección-->
     		<div class="texto-secc">
     			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
-		        <h1>Sección 3</h1>
+		        <h1>El efectivo como alternativa.</h1>
 		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		        <br><!--etiqueta para un brinco de renglón-->
-		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		        <p>A pesar del auge de los pagos digitales, el efectivo se mantiene como una alternativa en el panorama financiero actual. Si bien las nuevas tecnologías ofrecen comodidad y rapidez, el dinero en efectivo conserva un valor fundamental en la economía moderna, especialmente para ciertos grupos y situaciones.
+				Para quienes no tienen acceso a cuentas bancarias o dispositivos digitales, el efectivo es la única forma de participar en la economía. Personas mayores, con discapacidad o en situación de pobreza pueden quedar excluidas de un sistema exclusivamente digital.</p>
 		        <br><!--etiqueta para un brinco de renglón-->
     		</div>
     		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
@@ -127,30 +98,7 @@ la estructura que se llenara como se menciona a continuación...-->
     			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
         		<img  src="imagenes/img3.png" title="Img 3">
         		<!--texto para la imagen-->
-        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    		</div>
-
-    	</div>
-
-    	<!--contenedor para contenidos de cada sección-->
-    	<div class='seccion-contenedor' id="secc4">
-    		<!--contenedor para el texto de cada sección-->
-    		<div class="texto-secc">
-    			<!--si se quiere modificar contenido susutituir el texto entre las etiquetas de texto tipo h1-->
-		        <h1>Sección 4</h1>
-		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		        <br><!--etiqueta para un brinco de renglón-->
-		        <!--si se quiere modificar contenido susutituir el texto entre las etiquetas de parrafo-->
-		        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		        <br><!--etiqueta para un brinco de renglón-->
-    		</div>
-    		<!--contenedor para las imagenes de la sección OJO: este tiene un layout para una imagen-->
-    		<div class="contenedor-imagen-secc4">
-    			<!--si se quiere modificar contenido susutituir la imagen a la que referencia la etiqueta img-->
-        		<img  src="imagenes/img4.png" title="Img 4">
-        		<!--texto para la imagen-->
-        		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        		<p class="pie-imagen">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
     		</div>
 
     	</div>
