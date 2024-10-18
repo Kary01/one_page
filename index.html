@@ -23,7 +23,11 @@
 
       <div class='identificador'>
         <!----modificar nombre y ruta de la imagen para cambiar el logo por el propio----->
-       <img src="imagenes/logo.png">
+       <picture>
+		<source srcset="imagenes/logo-web.png" media="(min-width: 1024px)">
+		<source srcset="imagenes/logo-mobile.png" media="(min-width: 700px)">
+		<img src="imagenes/logo-mobile.png">
+	   </picture>
       </div>
 
       <div class='ligas-secciones'>
